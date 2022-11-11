@@ -12,3 +12,19 @@ a{
 ul{
     list-style: none;
 }
+
+.board{
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: black;
+}
+
+.hovered{
+    background-color: red;
+}
+
