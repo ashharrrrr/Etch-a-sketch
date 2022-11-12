@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d1524e1120.js"
+      crossorigin="anonymous"></script>
     <title>Etch-a-Sketch</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="main-content">
+      <header>
+        <h1>Etch-a-Sketch</h1>
+      </header>
+      <section class="hero">
+        <div class="buttons">
+          <button class="btn gridSize">Change grid size</button>
+          <button class="btn randomColor">Random Colors</button>
+          <input type="color" class="btn colorPicker" />
+          <button class="clean-board btn">Clean board</button>
+        </div>
+        <div class="grid"></div>
+      </section>
+    </div>
+
+    <footer>
+      <p class="credits">
+        made by
+        <i class="fa-brands fa-github"></i>
+        <a href="" class="github">Ashhar</a>
+      </p>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

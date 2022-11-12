@@ -1,30 +1,91 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
+body{
+    height: 100vh;
 }
 
-ul{
-    list-style: none;
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.board{
-    width: 960px;
-    height: 960px;
+ul {
+  list-style: none;
+}
+
+header{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
 }
 
-.box{
-    background-color: black;
+h1{
+    font-size: 100px;
+    padding: 1rem;
 }
 
-.hovered{
-    background-color: red;
+.main-content {
+  min-height: 95vh;
+  background: rgb(144, 224, 239);
 }
 
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.grid {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 0 3px black;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.btn{
+    padding: 5px 10px;
+    font-size:36px;
+}
+
+.colorPicker{
+    width: 15rem;
+    height: 5rem;
+}
+
+.box {
+  background-color: #fff;
+}
+
+.hovered {
+  background-color: black;
+}
+
+footer{
+    background: #48cae4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+}
+
+p.credits{
+    font-size: 36px;
+}
